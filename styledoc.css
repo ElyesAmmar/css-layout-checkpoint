@@ -1,0 +1,34 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#list1 > li{
+    display: inline-block;  
+    height:"100px";
+}
+#list1 a{
+    color: #747474;
+    text-align: center;
+    padding: 8px 10px ;
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+   
+}
+#about:link{
+    color: #00b39b;
+}
+#list1 a:hover{
+    color: #00b39b;
+}
+
