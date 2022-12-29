@@ -1,17 +1,27 @@
 body{
     font-family: Roboto,Arial,sans-serif;
+   
 }
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    
+}
+
 #navbar{
     display: flex;
     justify-content: space-between;
-    width: 850px;
+    width: 950px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    
+   
 }
-ul {
+.list1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,8 +36,6 @@ ul {
     padding-top: 15px;
    
 }
-     
-
 .list1 a{
     color: #747474;
     text-align: center;
@@ -37,7 +45,7 @@ ul {
     
    
 }
-#about:link{
+.about:link{
     color: #00b39b;
 }
 .list1 a:hover{
@@ -47,17 +55,107 @@ ul {
 .dropdown {
     position: relative;
     display: inline-block;
+    cursor: pointer;
   }
   
   .dropdown-content {
+    list-style-type: none;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-  }
+    min-width: 220px;
+    padding: 10px 0px;
+    margin-top: 5px;
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+    cursor: pointer;
+    right: 0;
+     }
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+        
+   }
+   .dropdown-content li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+
+.dropdown-content a:hover {
+    background-color: #EDEDED;
+}
+
+
+
+.section1{
+    margin-top: 100px;
+}
+.section1 > h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-weight: lighter;
+}
+.logo2{
+    display: block;
+    margin: auto;
+}
+.section1 h1{
+    text-align: center;
+    
+}
+.flex1{
+    display: flex;
+    width: 950px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.flex1 p{
+    line-height: 1.75;
+    color: #747474;
+    font-weight: 400;
+    width: 460px;
+}
+
+.section2{
+    width: 950px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.box1{
+    display: block;
+    background: #00b39b;
+    color: #fff;
+    height: 300px;
+    width: 260px;
+    padding: 25px 20px;
+    border-radius: 15px;
+
+}
+.box2{
+    display: block;
+    background: #3d83df;
+    color: #fff;
+    height: 300px;
+    width: 260px;
+    padding: 25px 20px;
+    border-radius: 15px;
+}
+.box3{
+    display: block;
+    background: #1b2734;
+    color: #fff;
+    height: 300px;
+    width: 260px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    
+
+}
+
+
+
+
+
+
