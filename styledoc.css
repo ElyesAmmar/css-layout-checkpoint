@@ -329,9 +329,13 @@ header{
     
 
 }
+figure{
+    margin: 0 !important;
+}
 .office__desc{
     display: flex;
     justify-content: space-around;
+    padding-top: 20px;
     width: 280px;
     font-size: 1.125em;
     align-content: center;
@@ -339,6 +343,16 @@ header{
     
     
    
+}
+
+.brands__logos{
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+}
+.brands__logos:hover{
+    filter: none;
+}
+svg:hover{
+    fill: rgb(238, 26, 26);
 }
 .btn{
     display: block;
